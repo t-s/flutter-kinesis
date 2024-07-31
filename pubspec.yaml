@@ -1,0 +1,25 @@
+name: kinesis_flutter
+description: App that just reads frm a Kinesis stream
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  aws_kinesis_api: ^2.0.0
+  aws_common: ^0.3.0
+  aws_signature_v4: ^0.3.0
+  http: ^0.13.3
+  intl: ^0.17.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
